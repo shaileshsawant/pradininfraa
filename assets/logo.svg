@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Pradin Infraa">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#C97F0E"/>
+      <stop offset=".5" stop-color="#F0A81E"/>
+      <stop offset="1" stop-color="#F7C948"/>
+    </linearGradient>
+    <linearGradient id="navyG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#123363"/>
+      <stop offset="1" stop-color="#0A1E42"/>
+    </linearGradient>
+  </defs>
+
+  <!-- rising arc -->
+  <path d="M101 30.5A47 47 0 1 0 110.5 64" fill="none" stroke="url(#gold)" stroke-width="7.5" stroke-linecap="round"/>
+
+  <!-- skyline -->
+  <g fill="url(#navyG)">
+    <rect x="30" y="62" width="15" height="38" rx="2"/>
+    <rect x="48" y="44" width="17" height="56" rx="2"/>
+    <rect x="68" y="56" width="15" height="44" rx="2"/>
+    <rect x="86" y="70" width="13" height="30" rx="2"/>
+  </g>
+  <!-- windows -->
+  <g fill="#FFFFFF" opacity=".85">
+    <rect x="33.5" y="67" width="3.5" height="4.5"/><rect x="38.5" y="67" width="3.5" height="4.5"/>
+    <rect x="33.5" y="75" width="3.5" height="4.5"/><rect x="38.5" y="75" width="3.5" height="4.5"/>
+    <rect x="33.5" y="83" width="3.5" height="4.5"/><rect x="38.5" y="83" width="3.5" height="4.5"/>
+    <rect x="51.5" y="50" width="4" height="5"/><rect x="57.5" y="50" width="4" height="5"/>
+    <rect x="51.5" y="59" width="4" height="5"/><rect x="57.5" y="59" width="4" height="5"/>
+    <rect x="51.5" y="68" width="4" height="5"/><rect x="57.5" y="68" width="4" height="5"/>
+    <rect x="51.5" y="77" width="4" height="5"/><rect x="57.5" y="77" width="4" height="5"/>
+    <rect x="71.5" y="62" width="3.5" height="4.5"/><rect x="76.5" y="62" width="3.5" height="4.5"/>
+    <rect x="71.5" y="70" width="3.5" height="4.5"/><rect x="76.5" y="70" width="3.5" height="4.5"/>
+    <rect x="71.5" y="78" width="3.5" height="4.5"/><rect x="76.5" y="78" width="3.5" height="4.5"/>
+    <rect x="89" y="76" width="3.5" height="4.5"/><rect x="94" y="76" width="3.5" height="4.5"/>
+    <rect x="89" y="84" width="3.5" height="4.5"/><rect x="94" y="84" width="3.5" height="4.5"/>
+  </g>
+
+  <!-- ground -->
+  <rect x="24" y="99" width="80" height="5" rx="2.5" fill="#0A1E42"/>
+
+  <!-- growth arrow -->
+  <path d="M34 94 L54 74 L66 84 L96 48" fill="none" stroke="url(#gold)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M96 48 L79 51 L93 63 Z" fill="url(#gold)"/>
+</svg>
